@@ -6,7 +6,6 @@ html {
 
 .degradado {
     background-image: linear-gradient(to right, #1c3846, #1d5270);
-
 }
 
 .colorVerde {
@@ -26,6 +25,11 @@ html {
 
 .hoverAmarillo:hover {
     color: #fec900;
+}
+
+.hoverAmarilloFooter:hover {
+    color: #fec900;
+
 }
 
 nav {
@@ -48,3 +52,9 @@ nav {
 }
 
 /* Fin formulario Orador */
+
+footer,
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
